@@ -16,7 +16,7 @@ import React, {useState} from "react";
            <div className="search-bar ui segment">
              <form onSubmit={onSubmit} className="ui form">
                <div className="field">
-                 <label>Search thy Misho</label>
+                 <label>Search here</label>
                  <input
                    type="text"
                    value={term}
