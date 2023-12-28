@@ -1,25 +1,22 @@
-.video-item{
-   
-    
-    /* justify-content: end; */
-    cursor: pointer;
-    
+.video-item {
+  /* justify-content: end; */
+  cursor: pointer;
 }
-.alignFit{
- max-width: auto;
+.alignFit {
+  max-width: auto;
 }
-.myVideoDiv{
-    display: flex;
-    align-items: center;
+.myVideoDiv {
+  display: flex;
+  align-items: center;
 }
-.video-item img{
-    /* width: 150px; */
-    width: 150px;
+.video-item img {
+  /* width: 150px; */
+  width: 150px;
 
-    margin-left: 10px;
+  margin-left: 10px;
 }
-.header{
-    margin-left: 10px;
+.header {
+  margin-left: 10px;
 }
 
 /* .list-items{
