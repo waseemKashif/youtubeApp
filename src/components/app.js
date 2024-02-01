@@ -20,15 +20,15 @@ const App = () => {
       {videos === 0 ? (
         <Loader />
       ) : (
-        <div className="ui grid">
+        <div className="ui grid content">
           <div className="ui row">
-            <div className="eleven wide column">
+            <div className="sixteen wide column">
               <VideoDetails video={selectedVideo} />
-              <div className=" videoInfo">
+              <div className=" videoInfo container">
                 <VideoInfo />
               </div>
             </div>
-            <div className="five wide column">
+            <div className="sixteen wide column  allVideos">
               <VideoList onVideoChosen={setSelectedVideo} videos={videos} />
             </div>
           </div>

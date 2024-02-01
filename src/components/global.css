@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(29, 28, 28);
+}
+.content {
+  width: 100%;
+}
 .home {
   padding-top: 20px;
 }
@@ -6,4 +15,7 @@
 }
 .field {
   width: 100%;
+}
+.allVideos {
+  margin-top: 50px;
 }
